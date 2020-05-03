@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mingyuliumr.tohacks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Credits"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_credits"
+            android:theme="@style/FullscreenTheme"></activity>
+
+        <activity
+            android:name=".Game"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_game"
+            android:theme="@style/FullscreenTheme" />
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".Instructions"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_instructions"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".MyRadarReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="io.radar.sdk.RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

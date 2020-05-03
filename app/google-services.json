@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15999941235",
+    "firebase_url": "https://newagent-alyhku.firebaseio.com",
+    "project_id": "newagent-alyhku",
+    "storage_bucket": "newagent-alyhku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15999941235:android:155940bd69ff4226350806",
+        "android_client_info": {
+          "package_name": "com.ToHacksRadario.AnimalFarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15999941235-nl1sn1i1h970e27h06hrcnbo9henq3j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWJYV85_2GhAsRlZU2jSEm3T0UdGvYIdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15999941235-nl1sn1i1h970e27h06hrcnbo9henq3j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

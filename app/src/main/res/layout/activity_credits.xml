@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cre_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/start_bg1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:keepScreenOn="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="20dp"
+            android:text="Fight COVID-19:"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:fontFamily="@font/jost" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:layout_marginTop="6dp"
+            android:text="Animal Farm"
+            android:layout_below="@id/title1"
+            android:textColor="@android:color/black"
+            android:textSize="51sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/jost" />
+
+        <TextView
+            android:id="@+id/credit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:keepScreenOn="true"
+            android:layout_alignParentBottom = "true"
+            android:layout_marginBottom="250dp"
+            android:text="THANK YOU"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/jost" />
+
+        <TextView
+            android:id="@+id/credit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:keepScreenOn="true"
+            android:layout_alignParentBottom = "true"
+            android:layout_marginBottom="200dp"
+            android:text="for staying at home with us!"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:fontFamily="@font/jost" />
+
+        <TextView
+            android:id="@+id/credit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:keepScreenOn="true"
+            android:layout_alignParentBottom = "true"
+            android:layout_marginBottom="150dp"
+            android:text="Created by: "
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:fontFamily="@font/jost" />
+
+        <TextView
+            android:id="@+id/credit4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:keepScreenOn="true"
+            android:layout_alignParentBottom = "true"
+            android:layout_marginBottom="30dp"
+            android:text="  Kefei Li, Mingyu Liu, Qing Shi, Zimeng Wang"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:fontFamily="@font/jost"
+            android:lineSpacingMultiplier="0.8" />
+
+    </RelativeLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/exit_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EXIT"
+                android:textColor="@android:color/black"
+                android:background="#ffffff"
+                android:onClick="toExit" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
