@@ -29,3 +29,9 @@ app as well as a guide for how to play the game. On the top right corner of the 
 adjust settings for location and sound.
 
 # Gallery
+<img width="200" alt="Animal Farm" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Animal%20Farm.jpeg">
+<img width="200" alt="Empty Farm" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Empty%20Farm.jpeg">
+<img width="200" alt="Instructions" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Instructions.jpeg">
+<img width="200" alt="Settings" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Settings.jpeg">
+<img width="200" alt="Game Progress 1" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Progress%201.jpg">
+<img width="200" alt="Game Progress 2" src="https://github.com/mingyuliuu/stay-at-farm-everybody/blob/master/Progress%202.jpg">
