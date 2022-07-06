@@ -1,8 +1,8 @@
 # SAFE: Stay at Farm Everybody!
 SAFE is an Android app developed to encourage social distancing with regards to COVID-19 during TOHacks.  
   
-API & Back-End Development: Kefei Li & Zimeng Wang  
-UI & Orginial Image Design: Mingyu Liu & Qing Shi
+API & Back-End Development: Kefei Li & Alice Wang  
+UI & Orginial Image Design: Mingyu Liu & Zack Shi
 
 _**Stay At Farm Everybody!**_  
 _**Safe at Home, Stay at Farm!**_
